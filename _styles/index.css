@@ -1,0 +1,122 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&display=swap');
+:root{
+    --font_titulo: "Righteous";
+    --font_footer: "Hurricane";
+    --font_paragrafos: "Sarala",arial;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: linear-gradient(to right, #03658C,#049DBF);
+    color: white;
+    width: 100vw;
+    height: 100vh;
+}
+h1, h2{
+    font-family: var(--font_titulo);
+    font-weight: 400;
+}
+h1{
+    font-size: 3vw;
+    margin: 10px;
+}
+h1:hover{
+    transition-duration: .8s;
+    font-size: 3.2vw;
+}
+h2{
+    font-size: 2vw;
+    margin: 10px;
+}
+p{
+    font-family: var(--font_paragrafos);
+    font-weight: 400;
+    font-size: 1vw;
+    margin: 10px;
+}
+header{
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+}
+header > div,nav{
+    margin: auto;
+}
+a {
+    padding: 10px;
+    text-decoration: none;
+    transition-duration: .8s;
+    color: white;
+}
+a:hover{
+    transition-duration: .8s;
+    text-decoration: underline;
+}
+main{
+    height: 75vh;
+}
+hr{
+    margin: auto;
+}
+#section_1{
+    display: flex;
+}
+#img{
+    width: 50%;
+    height: 40vh;
+    text-align: center;
+}
+#txt{
+    width: 50%;
+    height: 40vh;
+}
+#txt2{
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    margin-top: 50px;
+}
+#gato{
+    width: 18vw;
+    height: auto;
+}
+#gato:hover{
+    transition-duration: .8s;
+    width: 20vw;
+}
+#btn_cadastrar{
+    background-color: #F2CB05;
+    font-family: var(--font_paragrafos);
+    color: black;
+    width: 10vw;
+    height: 8vh;
+    border-radius: 20px;
+}
+#btn_cadastrar:hover{
+    transition-duration: .8s;
+    width: 11vw;
+    height: 9vh;
+}
+#section_1 > div{
+    margin: auto;
+}
+#section_2{
+    text-align: center;
+}
+.bastos{
+    font-family: var(--font_footer);
+    text-align: center;
+    font-size: 3vw;
+    height: 10vh;
+
+    padding: 0px;
+    text-decoration: none;
+}
+.bastos:hover{
+    text-decoration: none;
+}
